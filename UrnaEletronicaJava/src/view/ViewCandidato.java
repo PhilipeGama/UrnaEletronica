@@ -300,7 +300,15 @@ public class ViewCandidato extends javax.swing.JFrame {
             // TODO add your handling code here:
             CandidatoDao dao = new CandidatoDao();
             CandidatoBean bean = listaGlobal.get(indexTabela);
-            dao.excluir(bean.getId());
+          
+            int confirma = JOptionPane.showConfirmDialog(null,"Tem certeda que deseja "
+                       + "excluir esse candidato?","Aviso",0,0);
+               if(confirma == 0){
+                   check = false;
+                   txtNome.setText("");
+                   dao.excluir(bean.getId());
+                   preencherTabela();
+               }
         } catch (Exception ex) {
         }
     }//GEN-LAST:event_btnExcluirActionPerformed
@@ -311,9 +319,6 @@ public class ViewCandidato extends javax.swing.JFrame {
         try {
             if(validarCampo()){
                CandidatoDao dao = new CandidatoDao();
-               
-             
-              
                
                if(check){
                CandidatoBean bean1 = listaGlobal.get(indexTabela); 
@@ -329,7 +334,7 @@ public class ViewCandidato extends javax.swing.JFrame {
                preencherTabela();
             }
         } catch (Exception e) {
-            System.out.println("f");
+            System.out.println("Erro ao salvar");
         }
     }//GEN-LAST:event_btnSalvarActionPerformed
 

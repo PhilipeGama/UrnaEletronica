@@ -18,7 +18,7 @@ public class UrnaConexao {
         try {
            String host = "jdbc:mysql://localhost/urnaeletronica";
            String user = "root";
-           String password = "root";
+           String password = "";
            Connection connection = 
                    DriverManager.getConnection(host, user, password);
            return connection;

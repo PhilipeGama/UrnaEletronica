@@ -23,8 +23,8 @@ public class TesteConnexao {
             CandidatoDao dao = new CandidatoDao();
             Vector<CandidatoBean> beanVector = dao.consultar("");
             for (CandidatoBean bean : beanVector) {
-                System.out.println("id "+bean.getId()+"nome "+bean.getNome()+
-                        "numero "+bean.getNumero()+"partido"+bean.getPartido().getNome());
+                System.out.println("Id:"+bean.getId()+" Nome:"+bean.getNome()+
+                        " numero:"+bean.getNumero()+" partido:"+bean.getPartido().getNome());
             }
             System.out.println("Conectou ao banco de dados");
         } catch (Exception e) {

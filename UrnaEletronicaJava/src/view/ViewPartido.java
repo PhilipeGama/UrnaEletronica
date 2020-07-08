@@ -266,11 +266,7 @@ public class ViewPartido extends javax.swing.JFrame {
                  
                    dao.excluir(bean.getId());
                    txtNome.setText("");
-                   
-                           
-                   
-                   
-                   
+    
                    carregarTabela();
                   
                }

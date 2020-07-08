@@ -16,9 +16,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Create and use database
+--
+CREATE DATABASE urnaeletronica;
+USE urnaeletronica;
+--
 -- Table structure for table `candidato`
 --
-
 DROP TABLE IF EXISTS `candidato`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
