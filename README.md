@@ -13,7 +13,7 @@ e o banco de dados foi criado e implementando por mim mesmo Philipe Gama
 
 
 ### PENDENTES
--[ ]view da apuração de voto
--[ ]controle da apuração de votos
--[ ]salvar de apuração de votos
+- [ ] view da apuração de voto
+- [ ] controle da apuração de votos
+- [ ] salvar de apuração de votos
 
