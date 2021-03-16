@@ -10,4 +10,9 @@ onde foi ensinado como fazer toda a parte front end, o back end das telas
 e o banco de dados foi criado e implementando por mim mesmo Philipe Gama
 
 
-falta termina a tela de apuração de votos
+
+
+###PENDENTES
+[view da apuração de votos:unchecked]
+[controle da apuração de votos:checked]
+[salvar de apuração de votos:checked]
