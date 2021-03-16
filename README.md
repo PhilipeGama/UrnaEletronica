@@ -17,3 +17,4 @@ e o banco de dados foi criado e implementando por mim mesmo Philipe Gama
 [view da apuração de votos:unchecked]
 [controle da apuração de votos:checked]
 [salvar de apuração de votos:checked]
+ unchecked # [checkbox:unchecked]
